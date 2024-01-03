@@ -51,7 +51,12 @@ int searching(Node* head,int ele){
     }
     return 0;
 }
-
+void printt(Node* head){
+    while(head){
+        cout<<head->data<<" ";
+        head=head->next;
+    }
+}
 int main(){
 
     //main exapmle of creating a pointer and accesing its values.
@@ -64,4 +69,5 @@ int main(){
     cout<<length<<endl;
     int search=searching(head,24);
     cout<<search<<endl;
+    printt(head);
 }
