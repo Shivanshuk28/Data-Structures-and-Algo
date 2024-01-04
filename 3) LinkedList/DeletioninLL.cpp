@@ -19,7 +19,7 @@ Node* convertarrtoLL(vector<int>&arr){
     }
     return head;
 }
-printt(Node* head){
+void printt(Node* head){
     while(head){
         cout<<head->data<<" ";
         head=head->next;
