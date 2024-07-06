@@ -14,8 +14,8 @@ class Node{
         data=data1;
         next=nullptr;
     }
-
 };
+
 // this is converting an array to LL
 Node* convertarrtoLL(vector<int>&arr){
     Node* head=new Node(arr[0]);
@@ -57,8 +57,8 @@ void printt(Node* head){
         head=head->next;
     }
 }
-int main(){
 
+int main(){
     //main exapmle of creating a pointer and accesing its values.
 
     vector<int>arr{99,3,2,2,3,4};
@@ -71,3 +71,4 @@ int main(){
     cout<<search<<endl;
     printt(head);
 }
+ 

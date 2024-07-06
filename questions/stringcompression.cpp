@@ -15,10 +15,13 @@ string compress(vector<char>& chars) {
                 stk.top().second++;
             }
         }
+
+
         while(!stk.empty()){
             compresschar.push_back({stk.top().first,stk.top().second});
             stk.pop();
         }
+        
         for(int i=compresschar.size()-1;i>=0;i--){
             compress+=compresschar[i].first;
             if(compresschar[i].second>1){

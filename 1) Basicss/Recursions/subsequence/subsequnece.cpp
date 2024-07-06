@@ -11,7 +11,7 @@ void printf(int i,vector<int>&arr,vector<int> &ans,int n){
             cout<<"{ }";
         }
         cout<<endl;
-        return;  
+        return;
     }
     ans.push_back(arr[i]);
     printf(i+1,arr,ans,n);

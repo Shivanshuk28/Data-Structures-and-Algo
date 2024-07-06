@@ -15,7 +15,7 @@ void largest(string input,string& maxword){
         if(j<strlenn && input[j]!=' '){
             j++;
         }
-        else{
+        else{ 
             int curr_len=j-i;
             if(curr_len>max_len){
                 max_len=curr_len;

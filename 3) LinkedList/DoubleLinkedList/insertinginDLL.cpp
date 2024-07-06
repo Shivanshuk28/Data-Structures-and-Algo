@@ -37,7 +37,6 @@ Node* insertbeforehead(Node* head,int val){
     Node* newhead=new Node(val,head,nullptr);
     head->back=newhead;
     return newhead;
-
 }
 
 Node* insertbeforetail(Node* head, int val){
@@ -80,7 +79,6 @@ void beforegivennode(Node* node,int val){
     node->back=newnode;
 return;
 }
-
 
 int main()
 {

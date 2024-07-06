@@ -94,7 +94,6 @@ Node* delete_by_value(Node* head,int ele){
             temp=temp->next;
         }
         return head;
-        
     }
 int main(){
     vector<int> arr{1,2,99,3,4,5};
@@ -104,6 +103,8 @@ int main(){
     // head=delete_head(head);
     // printt(head);
     // head=remove_tail(head);
+    // printt(head);
+    // head=delete_by_value(head,99);
     // printt(head);
     head=delete_by_value(head,99);
     printt(head);
